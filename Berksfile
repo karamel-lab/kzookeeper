@@ -3,8 +3,8 @@ Encoding.default_external = "UTF-8"
 # End Bugfix
 
 source 'https://supermarket.chef.io'
-cookbook 'kagent', github: 'karamelchef/kagent-chef', branch: 'master'
+cookbook 'kagent', github: 'ashansa/kagent-chef', branch: 'master'
 metadata
 
-cookbook 'zookeeper', github: 'biobankcloud/chef-zookeeper', branch: 'master'
+cookbook 'zookeeper', github: 'ashansa/chef-zookeeper', branch: 'master'
 cookbook 'java'
